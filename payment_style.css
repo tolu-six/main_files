@@ -33,6 +33,15 @@ img{
 .failed_check {
 	text-align: center;
 }
+
+.failed_check > h3 > a:hover {
+	border: 2px black solid;
+	border-radius: 6px;
+	padding: 5px 5px;
+}
+.failed_check > h3 > a {
+	text-decoration: none;
+}
 .payment_fail > img {
     margin: 0 50px;
 }
