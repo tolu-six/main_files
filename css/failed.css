@@ -1,47 +1,31 @@
-*{
-    color: maroon;
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
+main{
+	padding: 35px 0;
+}
+img{
+	position: relative;
+	z-index: 5px;
+}
+.payment_fail{
+	margin: 20px auto;
+	width: 300px;
+	height: 450px;
+	border: 1px solid;
+	border-radius: 5px;	
+	box-shadow: 3px 2px 2px grey;
+	background:#EEECF7;
+}
+.failed_check {
+	text-align: center;
 }
 
-    body {
-    	background: transparent;
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.70)), url(https://res.cloudinary.com/giftapad/image/upload/v1567353251/background_nuye09.jpg);
-    background-size: cover;
-    background-repeat: unset;
-    background-position: inherit;
-    background-attachment: fixed; */
+.failed_check > h3 > a:hover {
+	border: 2px black solid;
+	border-radius: 6px;
+	padding: 5px 5px;
 }
-
-text {
-    margin-top: 50px;
-}
-
-.text h4 {
-    font-size: 70px;
-    text-align: center;
-    margin-top: -10px;
-    text-transform: uppercase;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.text p {
-    font-size: 50px;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-img {
-    height: 250px;
-    width: 250px;
-    margin-top: -50px;
-    margin-left: 40%;
-    transform: scale(1.15);
-    transition: transform 0.9s;
-}
-
-.text p a {
+.failed_check > h3 > a {
 	text-decoration: none;
-	border-bottom: thin dotted;
-	padding: 1px;
+}
+.payment_fail > img {
+    margin: 0 50px;
 }
